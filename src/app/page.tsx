@@ -1,3 +1,10 @@
+import HeaderPage from "@/components/Header";
+
 export default function Home() {
-  return <h1>Hello World!</h1>;
+  return (
+    <>
+      <HeaderPage />
+      <h1>Hello World!</h1>
+    </>
+  );
 }
