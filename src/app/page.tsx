@@ -52,6 +52,125 @@ export default function Home() {
             se especializar nas áreas de TI que mais vem crescendo no mercado.
           </p>
         </section>
+        <h2 className="my-5 text-lg font-bold text-zinc-800">
+          Mas qual área eu devo escolher?
+        </h2>
+        <section className="bg-zinc-700 mx-[-8px] text-white p-2">
+          <h3 className="my-3">
+            Aqui vão algumas das áreas que mais vem crescendo no mercado atual:
+          </h3>
+          <ul className="flex flex-wrap gap-2 text-center items-center justify-center my-5">
+            <li className="rounded-md bg-emerald-700 py-1 px-1">Programação</li>
+            <li className="rounded-md bg-emerald-700 py-1 px-1">
+              Análise de BI
+            </li>
+            <li className="rounded-md bg-emerald-700 py-1 px-1">
+              Administração de Banco de Dados
+            </li>
+            <li className="rounded-md bg-emerald-700 py-1 px-1">UX</li>
+            <li className="rounded-md bg-emerald-700 py-1 px-1">
+              Segurança da Informação
+            </li>
+            <li className="rounded-md bg-emerald-700 py-1 px-1">QA</li>
+          </ul>
+        </section>
+        <section className="mt-5">
+          <h3 className="font-semibold text-2xl text-zinc-800">Programação</h3>
+          <p className="leading-7 mt-5">
+            Como existem vários tipos de linguagem de programação, os
+            profissionais que optam pela área da Programação podem atuar em
+            diferentes setores dentro do mesmo nicho, por exemplo, podem seguir
+            na área de Front-end, onde criarão a parte visual de um site,
+            criando interações.
+            <br />
+            <br />
+            Podem seguir também na área de Back-end, que ao contrário do
+            Front-end, é onde se lida com os bastidores das funcionalidades das
+            aplicações web. Existem milhares de áreas ligadas a programação,
+            basta escolher a que mais se encaixe com você!
+          </p>
+        </section>
+        <section className="mt-5">
+          <h3 className="font-semibold text-2xl text-zinc-800">
+            Análise de BI
+          </h3>
+          <p className="leading-7 mt-5">
+            Uma das carreiras em tecnologia mais promissoras é a Análise de BI.
+            Nesse caso, você será responsável por <strong>compartilhar</strong>,{" "}
+            <strong>analisar</strong> e <strong>coletar</strong> os dados com
+            seus parceiros e clientes. Um papel essencial do analista de BI é se
+            basear nos dados para preparar relatórios analíticos e tomar
+            decisões.
+          </p>
+        </section>
+        <section className="mt-5">
+          <h3 className="font-semibold text-2xl text-zinc-800">
+            Administração de Banco de Dados
+          </h3>
+          <p className="leading-7 mt-5">
+            Os profissionais de Administração de Banco de Dados devem fazer a
+            gestão correta dos bancos de dados, garantindo a disponibilidade das
+            informações e cuidando da sua proteção. Sua principal função é
+            administrar, configurar e instalar os data centers.
+            <br />
+            <br />
+            Eles também são responsáveis pelo desenvolvimento de sistemas de
+            banco de dados, emissão de relatórios quantitativos de eficiência,
+            realização de backup e zelo pela segurança das informações.
+          </p>
+        </section>
+        <section className="mt-5">
+          <h3 className="font-semibold text-2xl text-zinc-800">
+            Interface do Usuário (UX)
+          </h3>
+          <p className="leading-7 mt-5">
+            UX é uma disciplina que estuda a experiência do usuário de um
+            produto ou serviço, com o objetivo de estimular melhorias nos
+            mesmos. A própria sigla já entrega esse significado, pois vem do
+            inglês user experience, que significa justamente “experiência do
+            usuário”.
+            <br />
+            <br />O canal de comunicação com a clientela deve ser o mais preciso
+            e certeiro possível, e os profissionais de TI são um destaque por
+            pensar em toda a jornada de uso de uma aplicação, e como é possível
+            melhorá-la cada vez mais.
+          </p>
+        </section>
+        <section className="mt-5">
+          <h3 className="font-semibold text-2xl text-zinc-800">
+            Segurança da Informação
+          </h3>
+          <p className="leading-7 mt-5">
+            Outra área de TI em alta é a de Segurança da Informação, em que os
+            profissionais são responsáveis por cuidar da segurança das
+            informações em diversos aspectos. São eles quem protegem os dados,
+            equipamentos e sistemas de servidores contra possíveis ameaças, bem
+            como tentativas de invasões de hackers.
+            <br />
+            <br />
+            Logo, é fundamental que eles tenham conhecimentos em sistemas de
+            monitoramento. Afinal, é importante dificultar ao máximo os ataques
+            e saber o que fazer para solucionar o problema o quanto antes.
+          </p>
+        </section>
+        <section className="mt-5">
+          <h3 className="font-semibold text-2xl text-zinc-800">
+            Garantia da Qualidade (QA)
+          </h3>
+          <p className="leading-7 mt-5">
+            O Analista de QA tem o papel de analisar todo o ciclo de
+            desenvolvimento de um produto digital. Esse profissional é capaz de
+            garantir o funcionamento correto dos programas e revisar os
+            pré-requisitos dos softwares, reportando falhas ao time de
+            desenvolvimento.Sem um time de testes, é provável que o usuário
+            final não fique satisfeito com o uso do programa.
+            <br />
+            <br />
+            Para se tornar um bom tester é essencial conhecer algumas linguagens
+            de programação, como <strong>Ruby</strong> e <strong>Java</strong>,
+            ferramentas de automação e ter uma pós-graduação na área.
+          </p>
+        </section>
       </main>
     </>
   );
