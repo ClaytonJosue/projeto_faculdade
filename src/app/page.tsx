@@ -28,6 +28,30 @@ export default function Home() {
             (Imagem meramente ilustrativa)
           </p>
         </section>
+
+        {/* Áreas de TI*/}
+        <section>
+          <p className="leading-7 mt-5">
+            O Brasil deve gerar quase 420 mil vagas na área de TI até 2025,
+            porém ainda é difícil encontrar profissionais capacitados da área
+            para ocupar essas vagas.
+            <br />
+            <br />
+            Em uma empresa de Fortaleza, por exemplo, das 60 vagas de emprego
+            abertas, 50 delas são para área de tecnologia. Para algumas, nem
+            precisa ter experiência.
+            <br />
+            <br />
+            Essa dificuldade de encontrar mão de obra para o mercado tem feito
+            muitas empresas investirem na formação de profissionais para
+            trabalhar na área de tecnologia.
+            <br />
+            <br />
+            Por isso que aqui nesse site eu irei mostrar ótimos sites{" "}
+            <strong>gratuitos</strong> e alguns <strong>pagos</strong> para você
+            se especializar nas áreas de TI que mais vem crescendo no mercado.
+          </p>
+        </section>
       </main>
     </>
   );
