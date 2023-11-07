@@ -162,7 +162,7 @@ export default function Home() {
             desenvolvimento de um produto digital. Esse profissional é capaz de
             garantir o funcionamento correto dos programas e revisar os
             pré-requisitos dos softwares, reportando falhas ao time de
-            desenvolvimento.Sem um time de testes, é provável que o usuário
+            desenvolvimento. Sem um time de testes, é provável que o usuário
             final não fique satisfeito com o uso do programa.
             <br />
             <br />
@@ -170,6 +170,137 @@ export default function Home() {
             de programação, como <strong>Ruby</strong> e <strong>Java</strong>,
             ferramentas de automação e ter uma pós-graduação na área.
           </p>
+        </section>
+        <section>
+          <h2 className="my-5 text-lg font-bold text-zinc-800">
+            Onde encontrar cursos gratuitos?
+          </h2>
+          <p className="leading-7">
+            Irei mostrar alguns sites que disponibilizam cursos gratuitos e
+            outros pagos.
+          </p>
+          <div>
+            <h3 className="font-semibold text-2xl text-zinc-800 mt-5 mb-3">
+              DIO
+            </h3>
+            <p className="leading-7">
+              Um dos sites que possuem cursos e bootcamps de programação até
+              análise de dados totalmente gratuitos é a
+              <a
+                href="https://www.dio.me"
+                target="_blank"
+                className="text-blue-500 underline"
+              >
+                {" "}
+                DIO
+              </a>
+              , onde só é necessário criar uma conta. A DIO também possui
+              conteúdos pagos, caso queira se aprofundar mais.
+            </p>
+          </div>
+          <div>
+            <h3 className="font-semibold text-2xl text-zinc-800 mt-5 mb-3">
+              Curso em Vídeo
+            </h3>
+            <p className="leading-7">
+              Outro site com cursos gratuitos é o{" "}
+              <a
+                href="https://www.cursoemvideo.com/cursos/"
+                target="_blank"
+                className="text-blue-500 underline"
+              >
+                Curso em Vídeo
+              </a>
+              . Lá existem cursos de programação, Inglês, Segurança da
+              Informação, entre mais diversos tipos de cursos, totalmente
+              gratuito. O curso em vídeo também possui um canal no{" "}
+              <a
+                href="https://www.youtube.com/@CursoemVideo"
+                target="_blank"
+                className="text-blue-500 underline"
+              >
+                Youtube
+              </a>{" "}
+              que disponibiliza várias dicas e alguns cursos estão disponiveis
+              lá também.
+            </p>
+          </div>
+          <div>
+            <h3 className="font-semibold text-2xl text-zinc-800 mt-5 mb-3">
+              Hashtag Programação
+            </h3>
+            <p className="leading-7">
+              E pra quem curte mexer com análise de dados, bots e muito mais,
+              temos o canal no Youtube da{" "}
+              <a
+                href="https://www.youtube.com/@HashtagProgramacao/featured"
+                target="_blank"
+                className="text-blue-500 underline"
+              >
+                Hashtag Programação
+              </a>
+              , onde encontrarão dicas sobre programação, cursos de Python e
+              análise de dados, entre outros.
+            </p>
+          </div>
+          <p className="leading-7 mt-7">
+            E pra quem tem uma condição melhor e quer se especializar ainda
+            mais, aqui vai alguns sites pagos com ótimos conteúdos.
+          </p>
+          <div>
+            <h3 className="font-semibold text-2xl text-zinc-800 mt-5 mb-3">
+              Rocketseat
+            </h3>
+            <p className="leading-7">
+              O site da{" "}
+              <a
+                href="https://www.rocketseat.com.br"
+                target="_blank"
+                className="text-blue-500 underline"
+              >
+                Rocketseat
+              </a>{" "}
+              possui diversos cursos sobre programação e principalmente sobre
+              Front-end e desenvolvimento Mobile.
+            </p>
+          </div>
+          <div>
+            <h3 className="font-semibold text-2xl text-zinc-800 mt-5 mb-3">
+              Udemy
+            </h3>
+            <p className="leading-7">
+              Na{" "}
+              <a
+                href="https://www.udemy.com/?ranMID=39197&ranEAID=%2F68Yt01SgtI&ranSiteID=_68Yt01SgtI-veCmPe6ejOXhezcihzvVjQ&LSNPUBID=%2F68Yt01SgtI&utm_source=aff-campaign&utm_medium=udemyads"
+                target="_blank"
+                className="text-blue-500 underline"
+              >
+                Udemy
+              </a>{" "}
+              você tem cursos de diversas áreas e com diversas promoções.
+              Recomendo dar uma olhada!
+            </p>
+          </div>
+          <div>
+            <h3 className="font-semibold text-2xl text-zinc-800 mt-5 mb-3">
+              Alura
+            </h3>
+            <p className="leading-7">
+              E por último temos a{" "}
+              <a
+                href="https://www.alura.com.br"
+                target="_blank"
+                className="text-blue-500 underline"
+              >
+                Alura
+              </a>
+              , que segue a mesma lógica da Udemy, com diversos cursos sobre
+              Programação, Data Science, Inteligência Artificial entre outras. A
+              Alura algumas vezes fazem imersões com algumas tecnologias e que
+              são totalmente de graças, então fiquem de olho no site e na rede
+              socias deles.
+            </p>
+          </div>
         </section>
       </main>
     </>
