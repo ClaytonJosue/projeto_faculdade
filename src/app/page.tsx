@@ -302,6 +302,10 @@ export default function Home() {
             </p>
           </div>
         </section>
+        <p className="leading-7 my-8">
+          E por aqui eu me despeço. Espero que vocês tenham gostado do conteúdo
+          e que possam decidir pra qual caminho seguir!
+        </p>
       </main>
     </>
   );
