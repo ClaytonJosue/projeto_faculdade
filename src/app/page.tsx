@@ -1,4 +1,5 @@
 import HeaderPage from "@/components/Header";
+import Footer from "@/components/Footer";
 import Image from "next/image";
 
 export default function Home() {
@@ -307,6 +308,7 @@ export default function Home() {
           e que possam decidir pra qual caminho seguir!
         </p>
       </main>
+      <Footer />
     </>
   );
 }
